@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+}
+
+.todo{
+    max-width: 700px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px dashed #efefef;
+    background-color: #fff;
+}
+
+.todo h1{
+    padding: 20px 0;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #313131;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+
+.todo .todo-form{
+    display: flex;
+}
+
+.todo .todo-form .btn{
+    min-width: 110px;
+    margin-left: 10px;
+}
+
+.todo .table{
+    margin-top: 1.4rem;
+}
+
+.todo .table td:first-child{
+    vertical-align: middle;
+    color: #3e3e3e;
+}
+
+.todo .not-todo-list{
+    margin-top: 1.4rem;
+}
+
+.todo .table tr td:last-child{
+    width: 96px;
+}
+
+.todo .complated{
+    text-decoration: line-through;
+    color: rgb(117, 117, 117) !important;
+    font-weight: 100;
+}
+
+.todo .table tr td:last-child .btn{
+    min-width: 32px;
+}
